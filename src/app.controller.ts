@@ -38,7 +38,7 @@ export class AppController {
     if(!body.email){
       errors.push("Az email kitöltése kötelező!")
     }else{
-      if(!/^[a-zA-z0-9]*@[a-zA-z0-9]*\.[a-zA-z0-9]{2,3}$/.test(body.email)){
+      if(!/^.+@.+\..+$/.test(body.email)){
         errors.push("Email formátum hibás!")
       }
     }
