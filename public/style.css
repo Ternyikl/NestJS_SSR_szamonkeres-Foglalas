@@ -3,3 +3,6 @@ body {
     color:rgb(58, 46, 135);
 }
 
+input, label {
+    margin-bottom: 10px;
+}
